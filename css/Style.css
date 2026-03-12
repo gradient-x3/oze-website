@@ -110,3 +110,45 @@ nav ul li a:hover {
   font-style: italic;
   margin-bottom: 30px;
   max-width: 700px
+}/* ===== À PROPOS ===== */
+.apropos {
+  display: flex;
+  align-items: center;
+  gap: 80px;
+  padding: 100px 120px;
+  background-color: var(--blanc);
+}
+
+.apropos-image img {
+  width: 380px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.apropos-texte {
+  max-width: 520px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.section-label {
+  font-size: 11px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: var(--bleu);
+}
+
+.apropos-texte h2 {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--texte);
+  line-height: 1.3;
+}
+
+.apropos-texte p {
+  font-size: 15px;
+  color: var(--texte-clair);
+  line-height: 1.9;
+}
