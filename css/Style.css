@@ -260,4 +260,83 @@ nav ul li a:hover {
   height: 500px;
   object-fit: cover;
   object-position: top;
+}/* ===== AVIS ===== */
+.avis {
+  padding: 100px 120px;
+  background-color: var(--creme);
+  text-align: center;
+}
+
+.avis .section-label {
+  margin-bottom: 15px;
+}
+
+.avis h2 {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--texte);
+  margin-bottom: 60px;
+}
+
+.avis-grille {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.avis-carte {
+  background-color: var(--blanc);
+  padding: 40px;
+  flex: 1;
+  max-width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: left;
+}
+
+.avis-texte {
+  font-size: 15px;
+  color: var(--texte-clair);
+  line-height: 1.9;
+  font-style: italic;
+  flex: 1;
+}
+
+.avis-auteur {
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--bleu);
+  text-transform: uppercase;
+}/* ===== CONTACT ===== */
+.contact {
+  padding: 100px 120px;
+  background-color: var(--blanc);
+  text-align: center;
+}
+
+.contact .section-label {
+  margin-bottom: 15px;
+}
+
+.contact h2 {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: var(--texte);
+  margin-bottom: 20px;
+}
+
+.contact-intro {
+  font-size: 15px;
+  color: var(--texte-clair);
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  line-height: 1.9;
+}
+
+.calendly-container {
+  max-width: 900px;
+  margin: 0 auto;
 }
