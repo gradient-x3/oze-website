@@ -420,4 +420,35 @@ footer {
 .btn:hover {
   background-color: var(--bleu);
   color: var(--creme);
+}/* ===== BURGER ===== */
+.burger {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--texte);
+}
+
+@media (max-width: 768px) {
+  .burger {
+    display: block;
+  }
+
+  #nav-menu {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--creme);
+    border-top: 1px solid var(--bleu);
+    padding: 20px 40px;
+    gap: 20px;
+  }
+
+  #nav-menu.ouvert {
+    display: flex;
+  }
 }

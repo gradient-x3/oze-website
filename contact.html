@@ -10,7 +10,8 @@
     <header>
       <nav>
         <div class="logo"><a href="index.html"><img src="images/Logo-Ôze.jpg" alt="Ôze" /></a></div>
-        <ul>
+        <button class="burger" id="burger">&#9776;</button>
+        <ul id ="nav-menu">
           <li><a href="apropos.html">À propos</a></li>
           <li class="dropdown">
             <a href="prestations.html">Prestations</a>
@@ -80,6 +81,14 @@
         <p>© 2025 Ôze — Tous droits réservés</p>
       </div>
     </footer>
+    <script>
+      const burger = document.getElementById('burger');
+      const navMenu = document.getElementById('nav-menu');
+
+      burger.addEventListener('click', function() {
+        navMenu.classList.toggle('ouvert');
+      });
+    </script>
 
   </body>
 </html>
