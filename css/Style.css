@@ -35,11 +35,11 @@ nav {
   align-items: center;
 }
 
-.logo {
-  font-size: 28px;
-  font-style: italic;
-  color: var(--bleu);
-  letter-spacing: 3px;
+.logo img {
+  height: 80px;
+  width: auto;
+  border-radius: 50%;
+  border: 1px solid var(--texte);
 }
 
 nav > ul {
@@ -86,13 +86,13 @@ nav ul li a:hover {
 }
 }/* ===== HERO ===== */
 .hero {
-  min-height: 90vh;
+  min-height: 60vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 80px 60px;
+  padding: 40px 60px 80px 60px;
 }
 
 .hero-accroche {
@@ -414,6 +414,7 @@ footer {
   letter-spacing: 3px;
   text-transform: uppercase;
   transition: all 0.3s ease;
+  margin-top: 70px;
 }
 
 .btn:hover {
